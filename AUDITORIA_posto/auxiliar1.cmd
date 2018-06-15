@@ -1,0 +1,2 @@
+runas /user:admin cmd 
+ 
