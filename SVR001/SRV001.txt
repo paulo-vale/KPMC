@@ -1,0 +1,1860 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+*************************************************************************  AUDITORIA ***************************************************************************** 
+****************************************************************************************************************************************************************** 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+DATA #########################################################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+servidor\admin
+ 
+_______________________________________ 
+ 
+06/06/2018 17:57:15 
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO DO SISTEMA ######################################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+Host Name:                 SERVIDOR
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.17134 N/A Build 17134
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Admin
+Registered Organization:   
+Product ID:                00330-80000-00000-AA755
+Original Install Date:     15/05/2018, 14:24:49
+System Boot Time:          22/05/2018, 11:45:08
+System Manufacturer:       Dell Inc.
+System Model:              OptiPlex 3020
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 60 Stepping 3 GenuineIntel ~3301 Mhz
+BIOS Version:              Dell Inc. A09, 27/07/2015
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             pt;Portuguàs (Portugal)
+Input Locale:              pt;Portuguàs (Portugal)
+Time Zone:                 (UTC+00:00) Dublin, Edimburgo, Lisboa, Londres
+Total Physical Memory:     8.111 MB
+Available Physical Memory: 2.559 MB
+Virtual Memory: Max Size:  11.373 MB
+Virtual Memory: Available: 2.050 MB
+Virtual Memory: In Use:    9.323 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    GRUPO
+Logon Server:              \\SERVIDOR
+Hotfix(s):                 2 Hotfix(s) Installed.
+                           [01]: KB4103729
+                           [02]: KB4103721
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Kaspersky Security Data Escort Adapter
+                                 Connection Name: Ethernet 2
+                                 Status:          Media disconnected
+                           [02]: Realtek PCIe GBE Family Controller
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.1.254
+                                 IP address(es)
+                                 [01]: 192.168.1.77
+                                 [02]: fe80::906:23e7:e8bc:4955
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+VERSAO BIOS #################################################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+
+SMBIOSBIOSVersion=A09
+
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO IP ###############################################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : SERVIDOR
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : lan
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : lan
+   Description . . . . . . . . . . . : Realtek PCIe GBE Family Controller
+   Physical Address. . . . . . . . . : 64-00-6A-31-8C-31
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::906:23e7:e8bc:4955%12(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.77(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 4 de junho de 2018 09:03:58
+   Lease Expires . . . . . . . . . . : 6 de junho de 2018 18:34:02
+   Default Gateway . . . . . . . . . : 192.168.1.254
+   DHCP Server . . . . . . . . . . . : 192.168.1.254
+   DHCPv6 IAID . . . . . . . . . . . : 56885354
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-1E-8E-8E-28-64-00-6A-31-8C-31
+   DNS Servers . . . . . . . . . . . : fe80::5a98:35ff:fe5a:387e%12
+                                       192.168.1.254
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Kaspersky Security Data Escort Adapter
+   Physical Address. . . . . . . . . : 00-FF-00-AE-C2-0D
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO DISCOS ##########################################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+
+Caption=C:
+DriveType=3
+FreeSpace=85135040512
+Size=239035424768
+
+
+Caption=D:
+DriveType=3
+FreeSpace=471456387072
+Size=487466201088
+
+
+Caption=E:
+DriveType=5
+FreeSpace=
+Size=
+
+
+ 
+
+
+Caption=KINGSTON SHSS37A240G
+DeviceID=\\.\PHYSICALDRIVE0
+Model=KINGSTON SHSS37A240G
+Partitions=3
+Size=240054796800
+
+
+Caption=ST500DM002-1BD142
+DeviceID=\\.\PHYSICALDRIVE1
+Model=ST500DM002-1BD142
+Partitions=3
+Size=500105249280
+
+
+ 
+
+
+Caption=KINGSTON SHSS37A240G
+
+
+Caption=ST500DM002-1BD142
+
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO FABRICO #########################################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+
+Manufacturer=Dell Inc.
+Product=040DDP
+SerialNumber=/CY0CP52/CN701635AJ05CJ/
+Version=A01
+
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO PROCESSADOR ###################################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+
+Name=Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+
+
+ 
+
+
+MaxClockSpeed=3301
+Name=Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+NumberOfCores=4
+Status=OK
+
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO UTILIZADOR ATUAL ################################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+USER INFORMATION
+----------------
+
+User Name      SID                                           
+============== ==============================================
+servidor\admin S-1-5-21-3042133111-2159713483-3830237209-1001
+
+
+GROUP INFORMATION
+-----------------
+
+Group Name                                                 Type             SID                                            Attributes                                        
+========================================================== ================ ============================================== ==================================================
+Todos                                                      Well-known group S-1-1-0                                        Mandatory group, Enabled by default, Enabled group
+NT AUTHORITY\Conta local e membro do grupo Administradores Well-known group S-1-5-114                                      Group used for deny only                          
+SERVIDOR\HelpLibraryUpdaters                               Alias            S-1-5-21-3042133111-2159713483-3830237209-1002 Mandatory group, Enabled by default, Enabled group
+BUILTIN\Administradores                                    Alias            S-1-5-32-544                                   Group used for deny only                          
+BUILTIN\Utilizadores                                       Alias            S-1-5-32-545                                   Mandatory group, Enabled by default, Enabled group
+NT AUTHORITY\INTERACTIVE                                   Well-known group S-1-5-4                                        Mandatory group, Enabled by default, Enabled group
+IN÷CIO DE SESS«O NA CONSOLA                                Well-known group S-1-2-1                                        Mandatory group, Enabled by default, Enabled group
+NT AUTHORITY\Utilizadores Autenticados                     Well-known group S-1-5-11                                       Mandatory group, Enabled by default, Enabled group
+NT AUTHORITY\Esta organizaá∆o                              Well-known group S-1-5-15                                       Mandatory group, Enabled by default, Enabled group
+NT AUTHORITY\Conta local                                   Well-known group S-1-5-113                                      Mandatory group, Enabled by default, Enabled group
+LOCAL                                                      Well-known group S-1-2-0                                        Mandatory group, Enabled by default, Enabled group
+NT AUTHORITY\Autenticaá∆o NTLM                             Well-known group S-1-5-64-10                                    Mandatory group, Enabled by default, Enabled group
+Etiqueta Obrigat¢ria\N°vel Obrigat¢rio MÇdio               Label            S-1-16-8192                                                                                      
+
+
+PRIVILEGES INFORMATION
+----------------------
+
+Privilege Name                Description                                   State   
+============================= ============================================= ========
+SeAssignPrimaryTokenPrivilege Substituir um token de n°vel de processo      Disabled
+SeIncreaseQuotaPrivilege      Ajustar quotas de mem¢ria para um processo    Disabled
+SeSecurityPrivilege           Gerir registo de auditoria e seguranáa        Disabled
+SeShutdownPrivilege           Encerrar o sistema                            Disabled
+SeChangeNotifyPrivilege       Ignorar verificaá∆o transversal               Enabled 
+SeUndockPrivilege             Remover computador da estaá∆o de ancoragem    Disabled
+SeIncreaseWorkingSetPrivilege Aumentar um conjunto de trabalho de processos Disabled
+SeTimeZonePrivilege           Alterar o fuso hor†rio                        Disabled
+
+ 
+
+C:\Users\Admin\Desktop\AUDITORIA>net user admin  
+Nome do utilizador                            Admin
+Nome completo                                 
+Coment†rio                                    
+Coment†rio do utilizador                      
+C¢digo de pa°s/regi∆o                         000 (Predefiniá∆o do sistema)
+Conta ativa                                   Sim
+Conta expira                                  Nunca
+
+Èltima definiá∆o da palavra-passe             05/04/2016 19:18:14
+A palavra-passe expira                        Nunca
+Palavra-passe alter†vel                       05/04/2016 19:18:14
+Palavra-passe necess†ria                      N∆o
+O utilizador pode alterar a palavra-passe     Sim
+
+Estaá‰es de trabalho permitidas               Todos
+Script de in°cio de sess∆o                    
+Perfil de utilizador                          
+Diret¢rio de raiz                             
+Èltimo in°cio de sess∆o                       04/06/2018 09:05:41
+
+Hor†rio de in°cio de sess∆o permitido         Todos
+
+Associaá‰es a Grupos Locais                   *Administradores      
+                                              *HelpLibraryUpdaters  
+Associaá‰es a Grupos globais                  *Nenhum               
+O comando foi conclu°do com àxito.
+
+ 
+
+Aliases para \\SERVIDOR
+
+-------------------------------------------------------------------------------
+*Administradores
+*Administradores de Hyper-V
+*Convidados
+*Grupo de Contas Geridas pelo Sistema
+*HelpLibraryUpdaters
+*IIS_IUSRS
+*Leitores de Registos de Eventos
+*Operadores Criptogr†ficos
+*Operadores de Assistància de Controlo de Acesso
+*Operadores de configuraá∆o de rede
+*Operadores de c¢pia de seguranáa
+*Replicador
+*SQLServer2005SQLBrowserUser$SERVIDOR
+*Utilizadores
+*Utilizadores avanáados
+*Utilizadores COM Distribu°dos
+*Utilizadores de Gest∆o Remota
+*Utilizadores do ambiente de trabalho remoto
+*Utilizadores do monitor de desempenho
+*Utilizadores do registo de desempenho
+O comando foi conclu°do com àxito.
+
+ 
+Nome de alias     Administradores
+Coment†rio        Os administradores tàm acesso completo e sem restriá‰es ao computador/dom°nio
+
+Membros
+
+-------------------------------------------------------------------------------
+Admin
+Administrador
+O comando foi conclu°do com àxito.
+
+ 
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO UTILIZADORES DO SISTEMA ########################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+
+AccountType=512
+Caption=SERVIDOR\Admin
+Description=
+Disabled=FALSE
+Domain=SERVIDOR
+FullName=
+InstallDate=
+LocalAccount=TRUE
+Lockout=FALSE
+Name=Admin
+PasswordChangeable=TRUE
+PasswordExpires=FALSE
+PasswordRequired=FALSE
+SID=S-1-5-21-3042133111-2159713483-3830237209-1001
+SIDType=1
+Status=OK
+
+
+AccountType=512
+Caption=SERVIDOR\Administrador
+Description=Conta incorporada para a administraá∆o do computador/dom°nio
+Disabled=TRUE
+Domain=SERVIDOR
+FullName=
+InstallDate=
+LocalAccount=TRUE
+Lockout=FALSE
+Name=Administrador
+PasswordChangeable=TRUE
+PasswordExpires=FALSE
+PasswordRequired=TRUE
+SID=S-1-5-21-3042133111-2159713483-3830237209-500
+SIDType=1
+Status=Degraded
+
+
+AccountType=512
+Caption=SERVIDOR\Convidado
+Description=Conta incorporada para acesso como convidado ao computador/dom°nio
+Disabled=TRUE
+Domain=SERVIDOR
+FullName=
+InstallDate=
+LocalAccount=TRUE
+Lockout=FALSE
+Name=Convidado
+PasswordChangeable=FALSE
+PasswordExpires=FALSE
+PasswordRequired=FALSE
+SID=S-1-5-21-3042133111-2159713483-3830237209-501
+SIDType=1
+Status=Degraded
+
+
+AccountType=512
+Caption=SERVIDOR\DefaultAccount
+Description=Conta de utilizador gerida pelo sistema.
+Disabled=TRUE
+Domain=SERVIDOR
+FullName=
+InstallDate=
+LocalAccount=TRUE
+Lockout=FALSE
+Name=DefaultAccount
+PasswordChangeable=TRUE
+PasswordExpires=FALSE
+PasswordRequired=FALSE
+SID=S-1-5-21-3042133111-2159713483-3830237209-503
+SIDType=1
+Status=Degraded
+
+
+AccountType=512
+Caption=SERVIDOR\WDAGUtilityAccount
+Description=Uma conta de utilizador gerida e utilizada pelo sistema para cen†rios do Windows Defender Application Guard.
+Disabled=TRUE
+Domain=SERVIDOR
+FullName=
+InstallDate=
+LocalAccount=TRUE
+Lockout=FALSE
+Name=WDAGUtilityAccount
+PasswordChangeable=TRUE
+PasswordExpires=TRUE
+PasswordRequired=TRUE
+SID=S-1-5-21-3042133111-2159713483-3830237209-504
+SIDType=1
+Status=Degraded
+
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO SOFTWARE INSTALADO MSI ########################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+
+InstallDate=20160405
+Name=Microsoft WSE 2.0 SP3 Runtime
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corp.
+Version=2.0.5050.0
+
+
+InstallDate=20160411
+Name=Download Navigator
+RegCompany=
+RegOwner=
+Vendor=SEIKO EPSON CORPORATION
+Version=1.1.0
+
+
+InstallDate=20160405
+Name=Microsoft Application Error Reporting
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.6012.5000
+
+
+InstallDate=20180601
+Name=Office 16 Click-to-Run Extensibility Component
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=16.0.9330.2087
+
+
+InstallDate=20180601
+Name=Office 16 Click-to-Run Localization Component
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=16.0.9330.2087
+
+
+InstallDate=20180601
+Name=Office 16 Click-to-Run Extensibility Component 64-bit Registration
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=16.0.9330.2087
+
+
+InstallDate=20180601
+Name=Office 16 Click-to-Run Licensing Component
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=16.0.9330.2087
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server System CLR Types
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=10.51.2500.0
+
+
+InstallDate=20160405
+Name=Microsoft Help Viewer 1.1
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=1.1.40219
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=9.0.30729.4974
+
+
+InstallDate=20170504
+Name=MarketResearch
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett-Packard
+Version=130.0.374.000
+
+
+InstallDate=20170504
+Name=hppLaserJetService
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett-Packard
+Version=001.001.0.0
+
+
+InstallDate=20160720
+Name=Sql Server Customer Experience Improvement Program
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20160405
+Name=VBA (2627.01)
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=6.03.00.9402
+
+
+InstallDate=20180515
+Name=Maxx Audio Installer (x64)
+RegCompany=
+RegOwner=Admin
+Vendor=Waves Audio Ltd.
+Version=2.6.6448.1
+
+
+InstallDate=20160405
+Name=Visual Studio 2010 Prerequisites - English
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2010  x86 Runtime - 10.0.40219
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20170712
+Name=Realtek Audio COM Components
+RegCompany=
+RegOwner=
+Vendor=Realtek Semiconductor Corp.
+Version=1.0.2
+
+
+InstallDate=20170504
+Name=HPSSupply
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett Packard Development Company L.P.
+Version=2.1.1.0000
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server Compact 4.0 x64 ENU
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=4.0.8482.1
+
+
+InstallDate=20171229
+Name=Microsoft HEVC Media Extension Installation for Microsoft.HEVCVideoExtension_1.0.2512.0_x64__8wekyb3d8bbwe (x64)
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=1.0.0.0
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Database Engine Services
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server 2008 Setup Support Files 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=10.3.5500.0
+
+
+InstallDate=20160405
+Name=Microsoft Visual Studio 2010 Shell (Isolated) - ENU
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Common Files
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20180427
+Name=Java 8 Update 171
+RegCompany=
+RegOwner=Admin
+Vendor=Oracle Corporation
+Version=8.0.1710.11
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2014 RsFx Driver
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server 2008 R2 Management Objects
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=10.51.2500.0
+
+
+InstallDate=20160720
+Name=Microsoft VSS Writer for SQL Server 2014
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Full text search
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2012 Native Client 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=11.2.5592.0
+
+
+InstallDate=20160720
+Name=SQL Server Browser for SQL Server 2014
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Altova AltovaXML© 2012 rel. 2 sp1 Community Edition
+RegCompany=
+RegOwner=
+Vendor=Altova
+Version=2012.02.01
+
+
+InstallDate=20160720
+Name=Microsoft System CLR Types for SQL Server 2014
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20170504
+Name=hppP1100P1560P1600SeriesLaserJetService
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett-Packard
+Version=001.001.0.0
+
+
+InstallDate=20180301
+Name=Adobe Refresh Manager
+RegCompany=
+RegOwner=Admin
+Vendor=Adobe Systems Incorporated
+Version=1.8.0
+
+
+InstallDate=20180516
+Name=Adobe Acrobat Reader DC - Portuguàs
+RegCompany=
+RegOwner=Admin
+Vendor=Adobe Systems Incorporated
+Version=18.011.20040
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=9.0.30729.6161
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Documentation Components
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20180404
+Name=Kaspersky Secure Connection
+RegCompany=
+RegOwner=Admin
+Vendor=Kaspersky Lab
+Version=18.0.0.405
+
+
+InstallDate=20160405
+Name=SkypeT 7.22
+RegCompany=
+RegOwner=
+Vendor=Skype Technologies S.A.
+Version=7.22.107
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server 2005 Backward compatibility
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=8.05.2309
+
+
+InstallDate=20160405
+Name=swMSM
+RegCompany=
+RegOwner=Admin
+Vendor=Adobe Systems, Inc
+Version=12.0.0.1
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2014 Transact-SQL Compiler Service 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Management Studio
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft .NET Framework 4 Multi-Targeting Pack
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=4.0.30319
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Database Engine Shared
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=
+Name=
+RegCompany=
+RegOwner=
+Vendor=
+Version=
+
+
+InstallDate=20180606
+Name=Dell SupportAssist
+RegCompany=
+RegOwner=Admin
+Vendor=Dell Inc.
+Version=2.2.0.253
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Database Engine Shared
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2014 Transact-SQL ScriptDom 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20180516
+Name=Google Update Helper
+RegCompany=
+RegOwner=
+Vendor=Google Inc.
+Version=1.3.33.17
+
+
+InstallDate=20170504
+Name=hppusgP1100P1560P1600Series
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett-Packard
+Version=1.0.0.1
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Management Studio
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20180606
+Name=Tenable Nessus (x64)
+RegCompany=
+RegOwner=Admin
+Vendor=Tenable, Inc.
+Version=7.1.0.20115
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Reporting Services
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Client Tools
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Common Files
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Client Tools
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft Report Viewer 2014 Runtime
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Reporting Services
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20170614
+Name=Microsoft Silverlight
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=5.1.50907.0
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Documentation Components
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Documentation Components
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Crystal Report 2008 Runtime SP6
+RegCompany=
+RegOwner=Admin
+Vendor=SAP AG
+Version=12.6.0.1596
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Database Engine Services
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server 2014 Policies 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160411
+Name=Epson Event Manager
+RegCompany=
+RegOwner=
+Vendor=SEIKO EPSON CORPORATION
+Version=2.50.0000
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2014 Setup (English)
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20180427
+Name=Java Auto Updater
+RegCompany=
+RegOwner=
+Vendor=Oracle Corporation
+Version=2.8.171.11
+
+
+InstallDate=20160405
+Name=Microsoft ODBC Driver 11 for SQL Server
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20180522
+Name=Kaspersky Internet Security
+RegCompany=
+RegOwner=Admin
+Vendor=Kaspersky Lab
+Version=18.0.0.405
+
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO DE RECURSOS ####################################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+Partilha     Recurso                         Coment†rio
+
+-------------------------------------------------------------------------------
+C$           C:\                             Partilha predefinida              
+D$           D:\                             Partilha predefinida              
+IPC$                                         IPC remoto                        
+print$       C:\WINDOWS\system32\spool\drivers
+                                             Controladores de impressora       
+ADMIN$       C:\WINDOWS                      Admin remoto                      
+PRIMAVERA    C:\Program Files (x86)\PRIMAVERA
+                                             
+TRABALHO     C:\                             TRABALHO                          
+O comando foi conclu°do com àxito.
+
+
+
+InstallDate=20160405
+Name=Microsoft WSE 2.0 SP3 Runtime
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corp.
+Version=2.0.5050.0
+
+
+InstallDate=20160411
+Name=Download Navigator
+RegCompany=
+RegOwner=
+Vendor=SEIKO EPSON CORPORATION
+Version=1.1.0
+
+
+InstallDate=20160405
+Name=Microsoft Application Error Reporting
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.6012.5000
+
+
+InstallDate=20180601
+Name=Office 16 Click-to-Run Extensibility Component
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=16.0.9330.2087
+
+
+InstallDate=20180601
+Name=Office 16 Click-to-Run Localization Component
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=16.0.9330.2087
+
+
+InstallDate=20180601
+Name=Office 16 Click-to-Run Extensibility Component 64-bit Registration
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=16.0.9330.2087
+
+
+InstallDate=20180601
+Name=Office 16 Click-to-Run Licensing Component
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=16.0.9330.2087
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server System CLR Types
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=10.51.2500.0
+
+
+InstallDate=20160405
+Name=Microsoft Help Viewer 1.1
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=1.1.40219
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=9.0.30729.4974
+
+
+InstallDate=20170504
+Name=MarketResearch
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett-Packard
+Version=130.0.374.000
+
+
+InstallDate=20170504
+Name=hppLaserJetService
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett-Packard
+Version=001.001.0.0
+
+
+InstallDate=20160720
+Name=Sql Server Customer Experience Improvement Program
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20160405
+Name=VBA (2627.01)
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=6.03.00.9402
+
+
+InstallDate=20180515
+Name=Maxx Audio Installer (x64)
+RegCompany=
+RegOwner=Admin
+Vendor=Waves Audio Ltd.
+Version=2.6.6448.1
+
+
+InstallDate=20160405
+Name=Visual Studio 2010 Prerequisites - English
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2010  x86 Runtime - 10.0.40219
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20170712
+Name=Realtek Audio COM Components
+RegCompany=
+RegOwner=
+Vendor=Realtek Semiconductor Corp.
+Version=1.0.2
+
+
+InstallDate=20170504
+Name=HPSSupply
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett Packard Development Company L.P.
+Version=2.1.1.0000
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server Compact 4.0 x64 ENU
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=4.0.8482.1
+
+
+InstallDate=20171229
+Name=Microsoft HEVC Media Extension Installation for Microsoft.HEVCVideoExtension_1.0.2512.0_x64__8wekyb3d8bbwe (x64)
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=1.0.0.0
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Database Engine Services
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server 2008 Setup Support Files 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=10.3.5500.0
+
+
+InstallDate=20160405
+Name=Microsoft Visual Studio 2010 Shell (Isolated) - ENU
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=10.0.40219
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Common Files
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20180427
+Name=Java 8 Update 171
+RegCompany=
+RegOwner=Admin
+Vendor=Oracle Corporation
+Version=8.0.1710.11
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2014 RsFx Driver
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server 2008 R2 Management Objects
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=10.51.2500.0
+
+
+InstallDate=20160720
+Name=Microsoft VSS Writer for SQL Server 2014
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Full text search
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2012 Native Client 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=11.2.5592.0
+
+
+InstallDate=20160720
+Name=SQL Server Browser for SQL Server 2014
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Altova AltovaXML© 2012 rel. 2 sp1 Community Edition
+RegCompany=
+RegOwner=
+Vendor=Altova
+Version=2012.02.01
+
+
+InstallDate=20160720
+Name=Microsoft System CLR Types for SQL Server 2014
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20170504
+Name=hppP1100P1560P1600SeriesLaserJetService
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett-Packard
+Version=001.001.0.0
+
+
+InstallDate=20180301
+Name=Adobe Refresh Manager
+RegCompany=
+RegOwner=Admin
+Vendor=Adobe Systems Incorporated
+Version=1.8.0
+
+
+InstallDate=20180516
+Name=Adobe Acrobat Reader DC - Portuguàs
+RegCompany=
+RegOwner=Admin
+Vendor=Adobe Systems Incorporated
+Version=18.011.20040
+
+
+InstallDate=20160405
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=9.0.30729.6161
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Documentation Components
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20180404
+Name=Kaspersky Secure Connection
+RegCompany=
+RegOwner=Admin
+Vendor=Kaspersky Lab
+Version=18.0.0.405
+
+
+InstallDate=20160405
+Name=SkypeT 7.22
+RegCompany=
+RegOwner=
+Vendor=Skype Technologies S.A.
+Version=7.22.107
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server 2005 Backward compatibility
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=8.05.2309
+
+
+InstallDate=20160405
+Name=swMSM
+RegCompany=
+RegOwner=Admin
+Vendor=Adobe Systems, Inc
+Version=12.0.0.1
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2014 Transact-SQL Compiler Service 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Management Studio
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft .NET Framework 4 Multi-Targeting Pack
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=4.0.30319
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Database Engine Shared
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=
+Name=
+RegCompany=
+RegOwner=
+Vendor=
+Version=
+
+
+InstallDate=20180606
+Name=Dell SupportAssist
+RegCompany=
+RegOwner=Admin
+Vendor=Dell Inc.
+Version=2.2.0.253
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Database Engine Shared
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2014 Transact-SQL ScriptDom 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20180516
+Name=Google Update Helper
+RegCompany=
+RegOwner=
+Vendor=Google Inc.
+Version=1.3.33.17
+
+
+InstallDate=20170504
+Name=hppusgP1100P1560P1600Series
+RegCompany=
+RegOwner=Admin
+Vendor=Hewlett-Packard
+Version=1.0.0.1
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Management Studio
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20180606
+Name=Tenable Nessus (x64)
+RegCompany=
+RegOwner=Admin
+Vendor=Tenable, Inc.
+Version=7.1.0.20115
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Reporting Services
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Client Tools
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Common Files
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Client Tools
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft Report Viewer 2014 Runtime
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Reporting Services
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20170614
+Name=Microsoft Silverlight
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=5.1.50907.0
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Documentation Components
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=SQL Server 2014 Documentation Components
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Crystal Report 2008 Runtime SP6
+RegCompany=
+RegOwner=Admin
+Vendor=SAP AG
+Version=12.6.0.1596
+
+
+InstallDate=20160720
+Name=SQL Server 2014 Database Engine Services
+RegCompany=
+RegOwner=
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160405
+Name=Microsoft SQL Server 2014 Policies 
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20160411
+Name=Epson Event Manager
+RegCompany=
+RegOwner=
+Vendor=SEIKO EPSON CORPORATION
+Version=2.50.0000
+
+
+InstallDate=20160720
+Name=Microsoft SQL Server 2014 Setup (English)
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2569.0
+
+
+InstallDate=20180427
+Name=Java Auto Updater
+RegCompany=
+RegOwner=
+Vendor=Oracle Corporation
+Version=2.8.171.11
+
+
+InstallDate=20160405
+Name=Microsoft ODBC Driver 11 for SQL Server
+RegCompany=
+RegOwner=Admin
+Vendor=Microsoft Corporation
+Version=12.0.2000.8
+
+
+InstallDate=20180522
+Name=Kaspersky Internet Security
+RegCompany=
+RegOwner=Admin
+Vendor=Kaspersky Lab
+Version=18.0.0.405
+
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+INFORMACAO DE CREDENCIAIS DO WINDOWS  ####################################################################   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+ 
+
+Currently stored credentials:
+
+    Target: MicrosoftAccount:target=SSO_POP_Device
+    Type: Domain Extended Credentials
+    User: 02alksfivibm
+    Saved for this logon only
+    
+    Target: LegacyGeneric:target=MicrosoftOffice16_Data:live:cid=039e456265ab3cc8
+    Type: Generic 
+    Local machine persistence
+    
+    Target: WindowsLive:target=virtualapp/didlogical
+    Type: Generic 
+    User: 02alksfivibm
+    Local machine persistence
+    
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFORMACAO DE CREDENCIAIS WEB #############################################################################
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFORMACAO SOFTWARE INSTALADO ############################################################################
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DisplayName                                                                                DisplayVersion Publisher    
+-----------                                                                                -------------- ---------    
+Adobe Flash Player 29 NPAPI                                                                29.0.0.140     Adobe Syst...
+Adobe Shockwave Player 12.3                                                                12.3.1.201     Adobe Syst...
+                                                                                                                       
+Epson PC-FAX Driver                                                                                                    
+EPSON Scan                                                                                                Seiko Epso...
+Guia de Rede EPSON WP-4545 Series                                                                                      
+Guia do Utilizador EPSON WP-4545 Series                                                                                
+Google Chrome                                                                              67.0.3396.62   Google Inc.  
+                                                                                                                       
+Kaspersky Internet Security                                                                18.0.0.405     Kaspersky Lab
+                                                                                                                       
+                                                                                                                       
+Kaspersky Secure Connection                                                                18.0.0.405     Kaspersky Lab
+                                                                                                                       
+Maxthon Cloud Browser                                                                      4.4.5.1000     Maxthon In...
+Mozilla Firefox 60.0 (x86 pt-PT)                                                           60.0           Mozilla      
+IRS - Modelo 3 Impressos 2016                                                              2016.1.6.0112  AT           
+                                                                                                                       
+WinPcap 4.1.3                                                                              4.1.0.2980     Riverbed T...
+PRIMAVERA PROFESSIONAL - Cloud Connector Mobile v9.00                                      9.1509.1002    PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Cloud Connector Digital Accounting v9.00                          9.1509.1003    PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Configuraá‰es base de empresas v9.00                              09.1509.1002   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 (Servidor)                                                08.0001.1690   PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Windows Scheduler v9.00 (Servidor)                                09.1509.1004   PRIMAVERA    
+Epson FAX Utility                                                                          1.20.00        SEIKO EPSO...
+hppP1100P1560P1600SeriesLaserJetService                                                    001.001.0.0    Hewlett-Pa...
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Emiss∆o D°vida em Mora (Servidor)            08.0001.1033   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Declaraá∆o Peri¢dica IVA                                08.0001.1149   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 3 (Servidor)                                     08.0001.1146   PRIMAVERA    
+MarketResearch                                                                             130.0.374.000  Hewlett-Pa...
+PRIMAVERA Fiscal Reporting v8.00 - Modelo Banco de Portugal - COPE                         08.0001.1030   PRIMAVERA    
+Microsoft SQL Server 2014 Policies                                                         12.0.2000.8    Microsoft ...
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+PRIMAVERA PROFESSIONAL - Contabilidade v9.00                                               09.1509.1033   PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Recursos Humanos v9.00 (Servidor)                                 09.1509.1032   PRIMAVERA    
+Realtek Audio COM Components                                                               1.0.2          Realtek Se...
+Java 8 Update 171                                                                          8.0.1710.11    Oracle Cor...
+                                                                                                                       
+PRIMAVERA Fiscal Reporting v8.00 - Relat¢rio Ènico (Servidor)                              08.0001.1113   PRIMAVERA    
+SQL Server Browser for SQL Server 2014                                                     12.0.2000.8    Microsoft ...
+Microsoft Report Viewer 2014 Runtime                                                       12.0.2000.8    Microsoft ...
+PRIMAVERA PROFESSIONAL - Contabilidade v9.00 (Servidor)                                    09.1509.1033   PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Database Manager v9.00                                            09.1509.1007   PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Recursos Humanos v9.00                                            09.1509.1032   PRIMAVERA    
+EpsonNet Print                                                                             2.4j           SEIKO EPSO...
+PRIMAVERA Fiscal Reporting v8.00 - Declaraá∆o Mensal de Remuneraá‰es (Servidor)            08.0001.1049   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Declaraá∆o Recapitulativa (Servidor)                    08.0001.1035   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Balancete Anal°tico                          08.0001.1044   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo Indez (Servidor)                                 08.0001.1038   PRIMAVERA    
+PRIMAVERA - ConvertConta 2015                                                              01.0001.1037   PRIMAVERA    
+                                                                                           2.50.00                     
+PRIMAVERA PROFESSIONAL - Base Aplicacional de Neg¢cio v9.00 (Servidor)                     09.1509.1024   PRIMAVERA    
+Java Auto Updater                                                                          2.8.171.11     Oracle Cor...
+PRIMAVERA PROFESSIONAL - Cloud Connector Data Update v9.00                                 9.1509.1011    PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Base Aplicacional de Neg¢cio v9.00                                09.1509.1024   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 10                                               08.0001.1054   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Emiss∆o Dados Mestre                         08.0001.1037   PRIMAVERA    
+VBA (2627.01)                                                                              6.03.00.9402   Microsoft ...
+PRIMAVERA Fiscal Reporting v8.00 - Declaraá∆o Peri¢dica IVA (Servidor)                     08.0001.1149   PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Database Manager v9.00 (Servidor)                                 09.1509.1007   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo P2                                               08.0001.1030   PRIMAVERA    
+Kaspersky Internet Security                                                                18.0.0.405     Kaspersky Lab
+PRIMAVERA PROFESSIONAL - Cloud Connector eTransactions v9.00                               9.1509.1003    PRIMAVERA    
+Microsoft Visual C++ 2010  x86 Runtime - 10.0.40219                                        10.0.40219     Microsoft ...
+                                                                                                                       
+                                                                                                                       
+PRIMAVERA Fiscal Reporting v8.00 - Conectores de ligaá∆o ERP PRIMAVERA (Servidor)          08.0001.1815   PRIMAVERA    
+Google Update Helper                                                                       1.3.33.17      Google Inc.  
+swMSM                                                                                      12.0.0.1       Adobe Syst...
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 22                                               08.0001.1211   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 10 (Servidor)                                    08.0001.1054   PRIMAVERA    
+                                                                                                                       
+PRIMAVERA Fiscal Reporting v8.00 - Relat¢rio Ènico Anexo D                                 08.0001.1051   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 30P (Servidor)                                   08.0001.1036   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Retená‰es na Fonte IRS/IRC e Imposto do Selo (Servidor) 08.0001.1039   PRIMAVERA    
+                                                                                                                       
+HPSSupply                                                                                  2.1.1.0000     Hewlett Pa...
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Emiss∆o Dados Mestre (Servidor)              08.0001.1037   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Declaraá∆o Recapitulativa                               08.0001.1035   PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Bot v9.00                                                         09.1509.1003   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo Tribunal Contas (Servidor)                       08.0001.1063   PRIMAVERA    
+Microsoft SQL Server 2008 R2 Management Objects                                            10.51.2500.0   Microsoft ...
+hppusgP1100P1560P1600Series                                                                1.0.0.1        Hewlett-Pa...
+PRIMAVERA Fiscal Reporting v8.00 - Relat¢rio Ènico                                         08.0001.1113   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo Indez                                            08.0001.1038   PRIMAVERA    
+Epson Event Manager                                                                        2.50.0000      SEIKO EPSO...
+Office 16 Click-to-Run Extensibility Component                                             16.0.9330.2087 Microsoft ...
+Office 16 Click-to-Run Localization Component                                              16.0.9330.2087 Microsoft ...
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 3                                                08.0001.1146   PRIMAVERA    
+Microsoft Application Error Reporting                                                      12.0.6012.5000 Microsoft ...
+PRIMAVERA PROFESSIONAL - Declaraá‰es Fiscais e Oficiais v9.00                              09.1509.1004   PRIMAVERA    
+Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161                             9.0.30729.6161 Microsoft ...
+PRIMAVERA Fiscal Reporting v8.00 - Declaraá∆o Mensal de Remuneraá‰es                       08.0001.1049   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 30P                                              08.0001.1036   PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Plataforma e Administrador v9.00 (Servidor)                       09.1509.1025   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Emiss∆o D°vida em Mora                       08.0001.1033   PRIMAVERA    
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+Adobe Refresh Manager                                                                      1.8.0          Adobe Syst...
+Adobe Acrobat Reader DC - Portuguàs                                                        18.011.20040   Adobe Syst...
+PRIMAVERA - Personal Data Manager v9.00                                                    9.0000.1075    PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Execuá∆o Oráamental                          08.0001.1039   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00                                                           08.0001.1690   PRIMAVERA    
+Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974                             9.0.30729.4974 Microsoft ...
+PRIMAVERA Fiscal Reporting v8.00 - Modelo IES (Servidor)                                   08.0001.1135   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Execuá∆o Oráamental (Servidor)               08.0001.1039   PRIMAVERA    
+PRIMAVERA - Deployment Center Client v1.00                                                 01.0005.1232   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo Tribunal de Contas                               08.0001.1063   PRIMAVERA    
+Microsoft SQL Server System CLR Types                                                      10.51.2500.0   Microsoft ...
+PRIMAVERA - Deployment Center v1.00                                                        01.0005.1232   PRIMAVERA    
+Crystal Report 2008 Runtime SP6                                                            12.6.0.1596    SAP AG       
+PRIMAVERA Fiscal Reporting v8.00 - Retená‰es na Fonte IRS/IRC e Imposto do Selo            08.0001.1039   PRIMAVERA    
+                                                                                           1.1000.1080    PRIMAVERA    
+Altova AltovaXML© 2012 rel. 2 sp1 Community Edition                                        2012.02.01     Altova       
+PRIMAVERA - Windows Services v1.00                                                         01.0005.1140   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo Banco de Portugal - COPE (Servidor)              08.0001.1030   PRIMAVERA    
+Microsoft .NET Framework 4 Multi-Targeting Pack                                            4.0.30319      Microsoft ...
+PRIMAVERA PROFESSIONAL - Windows Scheduler v9.00                                           09.1509.1004   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Saldo Gest∆o Anterior (Servidor)             08.0001.1034   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Relat¢rio Ènico Anexo D (Servidor)                      08.0001.1051   PRIMAVERA    
+hppLaserJetService                                                                         001.001.0.0    Hewlett-Pa...
+PRIMAVERA Fiscal Reporting v8.00 - Conectores de ligaá∆o ERP PRIMAVERA                     08.0001.1815   PRIMAVERA    
+Microsoft Visual Studio 2010 Shell (Isolated) - ENU                                        10.0.40219     Microsoft ...
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Balancete Anal°tico (Servidor)               08.0001.1044   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo IES                                              08.0001.1135   PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Declaraá‰es Fiscais e Oficiais v9.00 (Servidor)                   09.1509.1004   PRIMAVERA    
+Download Navigator                                                                         1.1.0          SEIKO EPSO...
+PRIMAVERA Fiscal Reporting v8.00 - Modelo DGO Saldo Gerància Anterior                      08.0001.1034   PRIMAVERA    
+PRIMAVERA PROFESSIONAL - Plataforma e Administrador v9.00                                  09.1509.1025   PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 1074                                             08.0001.1031   PRIMAVERA    
+Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219                                10.0.40219     Microsoft ...
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+Intel(R) Processor Graphics                                                                20.19.15.4531  Intel Corp...
+Realtek High Definition Audio Driver                                                       6.0.1.6086     Realtek Se...
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 22 (Servidor)                                    08.0001.1211   PRIMAVERA    
+Kaspersky Secure Connection                                                                18.0.0.405     Kaspersky Lab
+Microsoft WSE 2.0 SP3 Runtime                                                              2.0.5050.0     Microsoft ...
+PRIMAVERA PROFESSIONAL - Cloud Connector v9.00                                             9.1509.1003    PRIMAVERA    
+PRIMAVERA Fiscal Reporting v8.00 - Modelo 1074 (Servidor)                                  08.0001.1031   PRIMAVERA    
+SkypeT 7.22                                                                                7.22.107       Skype Tech...
+PRIMAVERA Fiscal Reporting v8.00 - Modelo P2 (Servidor)                                    08.0001.1030   PRIMAVERA    
+
+
